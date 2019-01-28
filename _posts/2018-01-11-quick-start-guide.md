@@ -10,7 +10,7 @@ hidden: true
 
 If you already have a full Ruby development environment with all headers and RubyGems installed (see Jekyll’s requirements), you can create a new Jekyll site by doing the following:
 
-<iframe width="480" height="360" src="https://youtu.be/W9dP6tEfiNY" frameborder="0"> </iframe>
+[![](http://img.youtube.com/vi/W9dP6tEfiNY/0.jpg)](http://www.youtube.com/watch?v=W9dP6tEfiNY "")
 
 ```ruby
 # Install Jekyll and Bundler gems through RubyGems
