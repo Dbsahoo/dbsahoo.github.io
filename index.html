@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<h1 class="page-header">Recent Posts</h1>
+
+<ul class="post-list">
+    {% for post in site.posts %}
+    <li>
+        <h2>
+            <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
+        </h2>
+        <span>{{ post.date | date: "%b %-d, %Y" }}</span>
+        {{ post.excerpt }}
+        <a class="btn btn-default" href="{{ post.url | prepend: site.baseurl }}">Read more <span class="glyphicon glyphicon-chevron-right"></span></a>
+    </li>
+    {% endfor %}
+</ul>
+
+<p class="rss-subscribe">Subscribe via <a href='{{ "/feed.xml" | prepend: site.baseurl }}'>RSS</a></p>
