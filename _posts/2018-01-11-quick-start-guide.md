@@ -13,6 +13,8 @@ If you already have a full Ruby development environment with all headers and Rub
 
 [![Watch the video](http://img.youtube.com/vi/W9dP6tEfiNY/0.jpg)](https://youtu.be/W9dP6tEfiNY)
 
+[![Alt text](https://img.youtube.com/vi/VID/0.jpg)](https://youtu.be/W9dP6tEfiNY?v=VID)
+
 ```ruby
 # Install Jekyll and Bundler gems through RubyGems
 gem install jekyll bundler
