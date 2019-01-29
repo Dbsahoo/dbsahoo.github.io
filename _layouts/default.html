@@ -82,13 +82,30 @@
                 </li>
                 
                 <li class="nav-item">
-                <a target="_blank" class="nav-link" href="https://www.wowthemes.net/themes/mediumish-wordpress/"><i class="fab fa-wordpress-simple"></i> WP Version</a>
+                 <!-- Search form -->
+					  <form method="get" action="/search" data-search-form>
+					    <input type="search" name="q" id="q" placeholder="Search My Blog" data-search-input />
+					    <input type="submit" value="Search" />
+					  </form>
+					
+					  <!-- Search results placeholder -->
+					  <p data-search-found>
+					    <span data-search-found-count></span> result(s) found for &ldquo;<span data-search-found-term></span>&rdquo;.
+					  </p>
+					  <div data-search-results></div>
+					
+					  <!-- Search result template -->
+					<script type="text/x-template" id="search-result">
+    				<div>
+      					<h1><a href="##Url##">##Title##</a></h1>
+      					<h2><a href="##Url##">##Date##</a></h2>
+      					<a href="##Url##">Read &ldquo;##Title##&rdquo;</a>
+    				</div>
+  				</script>
+					
+					  
                 </li>
                 
-                <li class="nav-item">
-                <a target="_blank" class="nav-link" href="https://www.wowthemes.net/themes/mediumish-ghost/"><i class="fab fa-snapchat-ghost"></i> Ghost Version</a>
-                </li>
-
                 <li class="nav-item">
                 <a target="_blank" class="nav-link" href="https://www.facebook.com/wowthemesnet/"><i class="fab fa-facebook-f"></i></a>
                 </li>
@@ -209,5 +226,11 @@
 <script src="{{ site.baseurl }}/assets/js/mediumish.js"></script>
     
 <script id="dsq-count-scr" src="//{{site.disqus}}.disqus.com/count.js"></script>
+
+<!-- jQuery - required but can be moved to the <head> -->
+					  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+					
+					  <!-- Search script - Must appear after template -->
+					  <script src="/assets/js/search.js"></script>
 </body>
 </html>
