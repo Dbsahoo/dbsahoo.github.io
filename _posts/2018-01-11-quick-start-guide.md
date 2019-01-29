@@ -11,10 +11,10 @@ hidden: true
 If you already have a full Ruby development environment with all headers and RubyGems installed (see Jekyll’s requirements), you can create a new Jekyll site by doing the following:
 
 
-[![Alt text](http://img.youtube.com/vi/W9dP6tEfiNY/0.jpg)](https://youtu.be/W9dP6tEfiNY?v=VID)
+[![Alt text](https://img.youtube.com/vi/W9dP6tEfiNY/0.jpg)](https://youtu.be/W9dP6tEfiNY?v=VID)
 
 
-[![Watch the video](http://img.youtube.com/vi/W9dP6tEfiNY/0.jpg)](https://youtu.be/W9dP6tEfiNY)
+[![Watch the video](https://img.youtube.com/vi/W9dP6tEfiNY/0.jpg)](https://youtu.be/W9dP6tEfiNY)
 
 
 ```ruby
