@@ -14,6 +14,9 @@ If you already have a full Ruby development environment with all headers and Rub
 <p><iframe style="width:100%;" height="315" src="https://www.youtube.com/embed/W9dP6tEfiNY?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></p>
 
 
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/W9dP6tEfiNY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p
+
+
 ```ruby
 # Install Jekyll and Bundler gems through RubyGems
 gem install jekyll bundler
