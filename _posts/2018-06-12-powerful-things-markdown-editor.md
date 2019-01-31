@@ -13,38 +13,34 @@ image: assets/images/16.jpg
 
 In this course, you will get to know about:
 
-+ Spring Introduction
-+ Introduction to Spring Boot
-+ Creating Spring Boot applications
++ Spring Boot
++ Building a Simple Application
++ Configurations and Build Systems for Spring Boot 
 
 
-## Spring Framework
+## Spring Boot
 
-Spring Framework or Spring is a lightweight application framework for developing Enterprise Java Application.
-Spring takes care of all the infrastructure required to build a application.
-Starting with Spring you can build whatever you want, Airline reservation systems to social networking,spring expands your needs.
-It cooperates various security models,Databases, Web services,Messaging systems under one platform.
-Once you build a perfect application using spring you can deploy it anywhere.
-With all the advantages of spring its being used in almost all the applications 
+Spring Boot allows you to build stand-alone, operating, production-grade Spring based Applications with ease.
 
-The two most popular features that Spring offers are
+Spring Boot Framework
 
-+ Dependency Injection (IOC)
-+ Aspect Oriented Programming (AOP)
++ follows “Opinionated Defaults Configuration” Approach to reduce Developer effort
 
-Spring Framework modules are categorized based on the main features as:
- 
- 	+ Core Container
- 	+ Data Access/Integration
- 	+ Web
- 	+ Aspect Oriented Programming (AOP)
- 	+ Instrumentation and Test
++ is based on convention over configuration
 
-## Reference lists
++ can build stand-alone applications
 
-The quick brown jumped over the lazy.
++ can create production ready package
 
-Another way to insert links in markdown is using reference lists. You might want to use this style of linking to cite reference material in a Wikipedia-style. All of the links are listed at the end of the document, so you can maintain full separation between content and its source or reference.
++ has Embedded Tomcat server
+
++ it is very easy to integrate Spring Boot Application with its Spring Ecosystem like Spring JDBC, Spring    ORM, Spring Data, Spring Security etc.
+
+To summarize, Spring Boot Framework is a pre-configured, pre-sugared set of technologies/framework to minimize boiler plate configuration offering the quickest way to get a Spring web application ready and operational with minimal configuration/coding out-of-the-box.
+
+## Building a Simple Application
+
+
 
 ## Full HTML
 
