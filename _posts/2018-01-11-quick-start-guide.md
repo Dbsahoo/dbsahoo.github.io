@@ -8,15 +8,15 @@ featured: true
 hidden: true
 ---
 
-##Router and Filter: Zuul
+Router and Filter: Zuul
 
-#1. Overview
+Overview
 
 The goal is to work around CORS and the Same Origin Policy restriction of the browser and allow the UI to call the API even though they don’t share the same origin.
 We’ll basically create two separate applications – a UI application and a simple REST API, and we’ll use the Zuul proxy in the UI application to proxy calls to the REST API.
 Zuul is a JVM based router and server side load balancer by Netflix. And Spring Cloud has a nice integration with an embedded Zuul proxy .
 
-#2. Maven Configuration
+Maven Configuration
 
 ```ruby
 <dependency>
@@ -26,7 +26,7 @@ Zuul is a JVM based router and server side load balancer by Netflix. And Spring 
 </dependency>
 ```
 
-#3. Zuul Properties for Routing
+Zuul Properties for Routing
 
 ```ruby
 zuul:
@@ -36,7 +36,7 @@ zuul:
       url: http://localhost:8081/spring-zuul-foos-resource/foos
 ```
 
-#Application should be annotate with @EnableZuulProxy
+Application should be annotate with @EnableZuulProxy
 
 Spring Cloud Netflix includes an embedded Zuul proxy, which we can enable with the @EnableZuulProxy annotation. 
 This will turn the Gateway application into a reverse proxy that forwards relevant calls to other services
@@ -53,7 +53,7 @@ public class GatewayApplication {
 }
 ```
 
-#Types of ZuulFilter 
+Types of ZuulFilter 
 
 ```
 
@@ -67,7 +67,7 @@ public class GatewayApplication {
 
 ```
 
-#Sample pre ZuulFilter
+Sample pre ZuulFilter
 ```java
 package hello.filters.pre;
 
@@ -110,7 +110,7 @@ public class SimpleZuulFilter extends ZuulFilter {
 }
 ```
 
-#Sample route ZuulFilter
+Sample route ZuulFilter
 ```java
 package hello.filters.pre;
 
@@ -156,7 +156,7 @@ public class SimpleZuulFilter extends ZuulFilter {
 }
 ```
 
-#Refer Video for complete Demo
+Refer Video for complete Demo
 
 	<p><iframe width="560" height="315" src="https://www.youtube.com/embed/-IOBubnPgfg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 	
