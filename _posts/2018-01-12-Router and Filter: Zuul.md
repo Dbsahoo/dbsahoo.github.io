@@ -1,12 +1,10 @@
 ---
 layout: post
-title:  "Press and education"
+title:  "Router and Filter: Zuul"
 author: sal
 categories: [ Jekyll, tutorial ]
 image: assets/images/7.jpg
 ---
-
-Router and Filter: Zuul
 
 Overview
 
