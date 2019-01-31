@@ -32,6 +32,7 @@ plugins:
   - jekyll-paginate
   - jekyll-archives
   - jekyll-seo-tag
+  - jekyll-sitemap
     
 # Archives
 jekyll-archives:
