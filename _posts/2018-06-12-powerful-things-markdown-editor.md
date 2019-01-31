@@ -1,37 +1,44 @@
 ---
 layout: post
-title:  "Powerful things you can do with the Markdown editor"
+title:  "How to create a simple microservice using spring boot"
 author: sal
 categories: [ Jekyll, tutorial ]
 image: assets/images/16.jpg
 ---
 
-#How to deploy spring boot application in Pivotal Cloud Foundry ,Demo for deployment in Pivotal Cloud Foundry , CLI and Pivotal Cloud Foundry features explained.
+#How to create a simple microservice using spring boot.
 
 
-## Special formatting
+## Course Introduction
 
-As well as bold and italics, you can also use some other special formatting in Markdown when the need arises, for example:
+In this course, you will get to know about:
 
-+ ~~strike through~~
-+ ==highlight==
-+ \*escaped characters\*
-
-
-## Writing code blocks
-
-There are two types of code elements which can be inserted in Markdown, the first is inline, and the other is block. Inline code is formatted by wrapping any word or words in back-ticks, `like this`. Larger snippets of code can be displayed across multiple lines using triple back ticks:
-
-```
-.my-link {
-    text-decoration: underline;
-}
-```
-
-If you want to get really fancy, you can even add syntax highlighting using Rouge.
++ Spring Introduction
++ Introduction to Spring Boot
++ Creating Spring Boot applications
 
 
-![walking]({{ site.baseurl }}/assets/images/8.jpg)
+## Spring Framework
+
+Spring Framework or Spring is a lightweight application framework for developing Enterprise Java Application.
+Spring takes care of all the infrastructure required to build a application.
+Starting with Spring you can build whatever you want, Airline reservation systems to social networking,spring expands your needs.
+It cooperates various security models,Databases, Web services,Messaging systems under one platform.
+Once you build a perfect application using spring you can deploy it anywhere.
+With all the advantages of spring its being used in almost all the applications 
+
+The two most popular features that Spring offers are
+
++ Dependency Injection (IOC)
++ Aspect Oriented Programming (AOP)
+
+Spring Framework modules are categorized based on the main features as:
+ 
+ 	+ Core Container
+ 	+ Data Access/Integration
+ 	+ Web
+ 	+ Aspect Oriented Programming (AOP)
+ 	+ Instrumentation and Test
 
 ## Reference lists
 
