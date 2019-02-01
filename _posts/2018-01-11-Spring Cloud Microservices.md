@@ -3,7 +3,7 @@ layout: post
 title:  "Spring Cloud Microservices"
 author: john
 categories: [ Jekyll, tutorial ]
-image: assets/images/11.jpg
+image: assets/images/springCloud.jpg
 featured: true
 hidden: true
 ---
