@@ -3,7 +3,7 @@ layout: post
 title:  "Microservices Routing and Filtering"
 author: sal
 categories: [ Jekyll, tutorial ]
-image: assets/images/12.jpg
+image: assets/images/zuul.jpg
 featured: true
 hidden: true
 ---
