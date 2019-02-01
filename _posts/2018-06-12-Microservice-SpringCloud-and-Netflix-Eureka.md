@@ -3,7 +3,7 @@ layout: post
 title:  "Microservice-SpringCloud-and-Netflix-Eureka"
 author: sal
 categories: [ Jekyll, tutorial ]
-image: assets/images/17.jpg
+image: assets/images/Eureka.jpg
 ---
 Spring Cloud already supports both Eureka and Consul, though I’ll focus on Eureka in this post because it can be bootstrapped automatically in one of Spring Cloud’s auto-configurations. Eureka is implemented on the JVM but Consul is implemented in Go.
 
