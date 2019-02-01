@@ -1,7 +1,7 @@
 # Site
 name: "Tech World"
-description: "Java educational blog on SpringBoot SpringCloud Microservice AmazonWebService PivotalCloudFoundary GooglCloudPlatform"
-meta_description: "Java educational blog"
+description: "Java Educational Blog"
+meta_description: "Java educational blog on SpringBoot SpringCloud Microservice AmazonWebService PivotalCloudFoundary GooglCloudPlatform"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 google_analytics: 'UA-46278016-1'
