@@ -17,7 +17,7 @@ authors:
     email: wowthemesnet@gmail.com
     web: https://www.wowthemes.net
     twitter: https://twitter.com/wowthemesnet
-    description: "Author of Mediumish, a Bootstrap Medium styled template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
+    description: "I'm Lipika - an engineer with a passion for teaching and building stuff on the web."
   john:
     name: Debesh
     display_name: Debesh
@@ -25,7 +25,7 @@ authors:
     email: wowthemesnet@gmail.com
     web: https://www.wowthemes.net
     twitter: https://twitter.com/wowthemesnet
-    description: "This is the author box. Write a short description of the author here. You are currently previewing Mediumish demo, a Jekyll template compatible with Github pages."
+    description: "I'm Debesh - an engineer with a passion for teaching and building stuff on the web."
 
 # Plugins
 plugins: 
