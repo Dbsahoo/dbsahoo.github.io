@@ -2,7 +2,7 @@
 layout: post
 title:  "Spring-Cloud-Microservices"
 author: john
-categories: [_JAVA_,_spring ]
+categories: [java,spring]
 image: assets/images/springCloud.jpg
 featured: true
 hidden: true
