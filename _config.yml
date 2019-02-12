@@ -30,17 +30,9 @@ authors:
 # Plugins
 plugins: 
   - jekyll-paginate
-  - jekyll-archives
   - jekyll-seo-tag
   - jekyll-sitemap
-    
-# Archives
-jekyll-archives:
-  enabled:
-    - categories
-  layout: archive
-  permalinks:
-    category: '/:title'
+
     
 # Pagination 
 paginate: 6
