@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Spring-Cloud-Microservices"
+title:  "SpringCloudMicroservices"
 author: john
 categories: [java,spring]
 image: assets/images/springCloud.jpg
