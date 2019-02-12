@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Router and Filter: Zuul"
+title:  "Router and Filte-Zuul"
 author: sal
 categories: [ Jekyll, tutorial ]
 image: assets/images/7.jpg
