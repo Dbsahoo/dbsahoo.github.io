@@ -2,7 +2,7 @@
 layout: post
 title:  "Spring-Cloud-Microservices"
 author: john
-categories: [ Jekyll, tutorial ]
+categories: [_JAVA_,_spring ]
 image: assets/images/springCloud.jpg
 featured: true
 hidden: true
