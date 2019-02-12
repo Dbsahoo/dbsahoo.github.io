@@ -2,7 +2,7 @@
 layout: post
 title:  "Microservices-Routing-and-Filtering"
 author: sal
-categories: [ Jekyll, tutorial ]
+categories: [ java, spring ]
 image: assets/images/zuul.jpg
 featured: true
 hidden: true

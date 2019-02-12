@@ -2,7 +2,7 @@
 layout: post
 title:  "Router and Filte-Zuul"
 author: sal
-categories: [ Jekyll, tutorial ]
+categories: [ java, spring ]
 image: assets/images/7.jpg
 ---
 
