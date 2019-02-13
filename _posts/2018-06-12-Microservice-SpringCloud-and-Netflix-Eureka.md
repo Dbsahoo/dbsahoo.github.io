@@ -5,7 +5,7 @@ author: sal
 categories: [ java, spring ]
 image: assets/images/Eureka.jpg
 ---
-Spring Cloud already supports both Eureka and Consul, though I’ll focus on Eureka in this post because it can be bootstrapped automatically in one of Spring Cloud’s auto-configurations. Eureka is implemented on the JVM but Consul is implemented in Go.
+Spring Cloud already supports both Eureka and Consul, though we'll focus on Eureka in this post.
 
 # Installing Eureka server
 Standing up an instance of the Eureka service registry is easy if you have 
