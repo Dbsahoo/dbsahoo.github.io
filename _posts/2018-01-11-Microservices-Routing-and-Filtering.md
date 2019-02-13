@@ -10,9 +10,9 @@ hidden: true
 
 Zuul Routing and Filtering Overview
 
-> The goal is to work around CORS and the Same Origin Policy restriction of the browser and allow the UI to call the API even though they don’t share the same origin.
+> The goal is to work around CORS and the Same Origin Policy restriction of the browser and allow the UI to call the API even though they don't share the same origin.
 
-> We’ll basically create two separate applications –we’ll use the Zuul proxy in one service application to proxy calls to the specific zuul configured REST API.
+> we'll basically create two separate applications –we’ll use the Zuul proxy in one service application to proxy calls to the specific zuul configured REST API.
 
 > Zuul is a JVM based router and server side load balancer by Netflix. And Spring Cloud has a nice integration with an embedded Zuul proxy .
 
