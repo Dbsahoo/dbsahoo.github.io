@@ -46,7 +46,7 @@ Micro app architectural style follows 12 factor app design principles, below are
 
 
 
-# Bestfit Java Microservice Technology Stack
+## Bestfit Java Microservice Technology Stack
 One of the advantages of architecting your application in this style is that Micro services aren’t tied to a particular technology stack. This gave us the flexibility to choose technologies instead of defaulting to a technology that may or may not make sense. Java based technologies have been choosed primarily to implement micro services.
 Below is the technology quadrant where all the techniques, tools, platforms and frameworks are being considered for building micro services.
 
@@ -76,12 +76,12 @@ Spring boot  is designed to simplify the bootstrapping and development of a new 
 ## Spring boot web
 Spring web framework provides annotations for  applications to create rest based apis , applications can create asynchronous rest apis using web async  manager or leave then synchronous, please refer to Serction 4.2 for more information on how to create apis.
 
-### Undertow 
+## Undertow 
 Undertow is a flexible performant web server written in java, providing both blocking and non-blocking API’s based on NIO.
 Undertow has a composition based architecture that allows you to build a web server by combining small single purpose handlers. The gives you the flexibility to choose between a full Java EE servlet 3.1 container, or a low level non-blocking handler, to anything in between.
 Undertow is designed to be fully embeddable, with easy to use fluent builder APIs. Undertow’s lifecycle is completely controlled by the embedding application.
 
-### Gemfire
+## Gemfire
 Gemfire Also referred to as an in-memory data grid, Gemfire (EDF) is a distributed, memory-based data management platform that uses cluster-wide resources – memory, CPU, network bandwidth, and optionally local disk – to manage application data and application logic (behavior). The Gemfire uses dynamic replication and data partitioning techniques to offer continuous availability, very high performance, and linear scalability for data intensive applications, all without compromising on data consistency even when exposed to failure conditions. Application logic execution can be parallelized by moving behavior to the data nodes or the data to the behavior. Also, clients can subscribe to data changes in the Gemfire for reliable, asynchronous event notifications enabling event driven architecture.
 
 **GemFire in a Nutshell**
@@ -94,7 +94,7 @@ Gemfire Also referred to as an in-memory data grid, Gemfire (EDF) is a distribut
 - Horizontally Scaling
 - Globally Distributed 
 
-GemFire Features Summary
+**GemFire Features Summary**
 - Rich Objects
 - Ultra-Low Laatency RAM Durability
 - Elastic Growth w/o pausing
