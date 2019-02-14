@@ -77,3 +77,36 @@ Spring web framework provides annotations for  applications to create rest based
 Undertow is a flexible performant web server written in java, providing both blocking and non-blocking API’s based on NIO.
 Undertow has a composition based architecture that allows you to build a web server by combining small single purpose handlers. The gives you the flexibility to choose between a full Java EE servlet 3.1 container, or a low level non-blocking handler, to anything in between.
 Undertow is designed to be fully embeddable, with easy to use fluent builder APIs. Undertow’s lifecycle is completely controlled by the embedding application.
+
+
+## Gemfire
+Gemfire Also referred to as an in-memory data grid, Gemfire (EDF) is a distributed, memory-based data management platform that uses cluster-wide resources – memory, CPU, network bandwidth, and optionally local disk – to manage application data and application logic (behavior). The Gemfire uses dynamic replication and data partitioning techniques to offer continuous availability, very high performance, and linear scalability for data intensive applications, all without compromising on data consistency even when exposed to failure conditions. Application logic execution can be parallelized by moving behavior to the data nodes or the data to the behavior. Also, clients can subscribe to data changes in the Gemfire for reliable, asynchronous event notifications enabling event driven architecture.
+
+_GemFire in a Nutshell_
+
+- Memory Oriented
+- Object or JSON Database
+- Schemaless or Rich Objects
+- Puts and Gets / Object Query Language
+- Shared Nothing
+- Horizontally Scaling
+- Globally Distributed 
+
+_GemFire Features Summary_
+- Rich Objects
+- Ultra-Low Laatency RAM Durability
+- Elastic Growth w/o pausing
+- Partitioned Active Data
+- Redundancy for instant FT
+- Colocated Active Data
+- Replicated Master Data
+- Ultra-fast Colocated Transactions 
+- Server-side Event Listeners
+- Client-side Durable Subscriptions
+- Parallel Map-Reduce Function Execution
+- Parallel OQL Queries
+- Continuous Queries
+- LRU Overflow to disk in native format for fast retrieval
+- Parallel, Shared Nothing Persistence to disk w/ online backup 
+- Synchronous or Asynchronous Write Through, Read Through
+- Uni or Bi-directional cluster synchronization over WAN
