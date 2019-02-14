@@ -117,7 +117,7 @@ Gemfire Also referred to as an in-memory data grid, Gemfire (EDF) is a distribut
  
 
 
-## Spring Data Gemfire: 
+## Spring Data Gemfire
 Spring Data Gemfire is an abstraction layer that provides easy access to Pivotal Gemfire , Spring Data GemFire focuses on integrating the Spring Framework’s powerful, non-invasive programming model and concepts with Pivotal GemFire, simplifying configuration, development and providing high-level abstractions.
 ## Spring cloud Eureka
 Eureka is a Rest based service that is primarily used in cloud or micro services environment for dynamically discovering the services for the purpose of load balancing and fail over of mid-tier servers.
@@ -143,6 +143,6 @@ Mockito is a mocking framework for Junit tests.
 Cucumber is a Behavior driven development tool, Cucumber is a tool for running automated tests written in plain language. Because they're written in plain language, they can be read by anyone on your team. Because they can be read by anyone, you can use them to help improve communication, collaboration and trust on your team.
 ## Spring Cloud Turbine
 Turbine is a library for aggregating all hystrix streams data and provides one unique dashboard for application developers and operations to easily monitor services.
-## Chaos monkey, Chaos Gorilla, etc.  
+## Chaos monkey, Chaos Gorilla 
 resiliency testing tools that help applications tolerate random instance and availability zone failures and help discover gaps in resiliency.
 
