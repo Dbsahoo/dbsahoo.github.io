@@ -42,3 +42,107 @@ Micro app architectural style follows 12 factor app design principles, below are
 - Keep Development ,test, staging and production as similar as possible
 - Treat logs as event streams
 - Run admin/Management process as one of processes
+
+
+
+
+# Bestfit Java Microservice Technology Stack
+One of the advantages of architecting your application in this style is that Micro services aren’t tied to a particular technology stack. This gave us the flexibility to choose technologies instead of defaulting to a technology that may or may not make sense. Java based technologies have been choosed primarily to implement micro services.
+Below is the technology quadrant where all the techniques, tools, platforms and frameworks are being considered for building micro services.
+
+* Java 8 :- Java 8 has lot of new features that can improve the developer productivity and the performance , also it support parallel processing , below are the some of the new features that java 8 has.
+
+- Lambda Expressions, a new language feature, has been introduced in this release. They enable you to treat functionality as a method argument, or code as data. Lambda expressions let you express instances of single-method interfaces (referred to as functional interfaces) more compactly.
+- Method references provide easy-to-read lambda expressions for methods that already have a name.
+- Default methods enable new functionality to be added to the interfaces of libraries and ensure binary compatibility with code written for older versions of those interfaces.
+- Repeating Annotations provide the ability to apply the same annotation type more than once to the same declaration or type use.
+- Type Annotations provide the ability to apply an annotation anywhere a type is used, not just on a declaration. Used with a pluggable type system, this feature enables improved type checking of your code.
+- Improved type inference.
+- Method parameter reflection.
+- Classes in the new java.util.stream package provide a Stream API to support functional-style operations on streams of elements. The Stream API is integrated into the Collections API, which enables bulk operations on collections, such as sequential or parallel map-reduce transformations.
+- Performance Improvement for HashMaps with Key Collisions
+
+## Spring boot
+
+Spring boot  is designed to simplify the bootstrapping and development of a new Spring application. The framework takes an opinionated approach to configuration, freeing developers from the need to define boilerplate configuration and code, the goal of Spring Boot is not to provide new solutions for the many problem domains already solved, but rather to leverage the platform in fostering a development experience that simplifies the use of those already-available technologies. Some of the features are.
+
+- Create stand-alone Spring applications
+- Embed Tomcat, Jetty or Undertow directly (no need to deploy WAR files)
+- Provide opinionated 'starter' POMs to simplify your Maven configuration
+- Automatically configure Spring whenever possible
+- Provide production-ready features such as metrics, health checks and externalized configuration
+- Absolutely no code generation and no requirement for XML configuration
+
+## Spring boot web
+Spring web framework provides annotations for  applications to create rest based apis , applications can create asynchronous rest apis using web async  manager or leave then synchronous, please refer to Serction 4.2 for more information on how to create apis.
+
+### Undertow 
+Undertow is a flexible performant web server written in java, providing both blocking and non-blocking API’s based on NIO.
+Undertow has a composition based architecture that allows you to build a web server by combining small single purpose handlers. The gives you the flexibility to choose between a full Java EE servlet 3.1 container, or a low level non-blocking handler, to anything in between.
+Undertow is designed to be fully embeddable, with easy to use fluent builder APIs. Undertow’s lifecycle is completely controlled by the embedding application.
+
+### Gemfire
+Gemfire Also referred to as an in-memory data grid, Gemfire (EDF) is a distributed, memory-based data management platform that uses cluster-wide resources – memory, CPU, network bandwidth, and optionally local disk – to manage application data and application logic (behavior). The Gemfire uses dynamic replication and data partitioning techniques to offer continuous availability, very high performance, and linear scalability for data intensive applications, all without compromising on data consistency even when exposed to failure conditions. Application logic execution can be parallelized by moving behavior to the data nodes or the data to the behavior. Also, clients can subscribe to data changes in the Gemfire for reliable, asynchronous event notifications enabling event driven architecture.
+
+**GemFire in a Nutshell**
+
+- Memory Oriented
+- Object or JSON Database
+- Schemaless or Rich Objects
+- Puts and Gets / Object Query Language
+- Shared Nothing
+- Horizontally Scaling
+- Globally Distributed 
+
+GemFire Features Summary
+- Rich Objects
+- Ultra-Low Laatency RAM Durability
+- Elastic Growth w/o pausing
+- Partitioned Active Data
+- Redundancy for instant FT
+- Colocated Active Data
+- Replicated Master Data
+- Ultra-fast Colocated Transactions 
+- Server-side Event Listeners
+- Client-side Durable Subscriptions
+- Parallel Map-Reduce Function Execution
+- Parallel OQL Queries
+- Continuous Queries
+- LRU Overflow to disk in native format for fast retrieval
+- Parallel, Shared Nothing Persistence to disk w/ online backup 
+- Synchronous or Asynchronous Write Through, Read Through
+- Uni or Bi-directional cluster synchronization over WAN
+
+
+ 
+
+
+## Spring Data Gemfire: 
+Spring Data Gemfire is an abstraction layer that provides easy access to Pivotal Gemfire , Spring Data GemFire focuses on integrating the Spring Framework’s powerful, non-invasive programming model and concepts with Pivotal GemFire, simplifying configuration, development and providing high-level abstractions.
+## Spring cloud Eureka
+Eureka is a Rest based service that is primarily used in cloud or micro services environment for dynamically discovering the services for the purpose of load balancing and fail over of mid-tier servers.
+## Spring cloud Ribbon
+Ribbon is a client side IPC library that is used for load balancing the requests across the discoverable eureka registered instances, and provide fault tolerant. 
+## Spring cloud Zuul
+Zuul is an edge service and  gateway for all services that run on cloud foundry, it provides dynamic routing based on the requests,Sercurity features, authentication, authorization.
+## Spring cloud Hystrix
+Hystrix is a latency and fault tolerance library designed to isolate points of access to remote systems, services and 3rd party libraries, stop cascading failure and enable resilience in complex distributed systems where failure is inevitable.
+## Spring Cloud config
+Spring Cloud Config provides server and client-side support for externalized configuration in a distributed system. With the Config Server you have a central place to manage external properties for applications across all environments. The concepts on both client and server map identically to the Spring Environment and PropertySource abstractions, so they fit very well with Spring applications, but can be used with any application running in any language. As an application moves through the deployment pipeline from dev to test and into production you can manage the configuration between those environments and be certain that applications have everything they need to run when they migrate. The default implementation of the server storage backend uses git so it easily supports labelled versions of configuration environments, as well as being accessible to a wide range of tooling for managing the content. It is easy to add alternative implementations and plug them in with Spring configuration.
+## RabbitMQ
+Rabbit MQ is an open source implementation of AMQP specification, for messaging between services; it provides robust messaging for applications to connect each other.
+## RxJava and Reactor
+RxJava and Reactor are open source implementations of Reactive streams, which help applications to build asynchronous, event driven, resilient applications.
+## Junit
+JUnit is a simple framework to write repeatable tests. 
+## Rest Assured
+Testing and validating REST services in Java is harder than in dynamic languages such as Ruby and Groovy. REST Assured brings the simplicity of using these languages into the Java domain.
+## Mockito
+Mockito is a mocking framework for Junit tests.
+## Cucumber
+Cucumber is a Behavior driven development tool, Cucumber is a tool for running automated tests written in plain language. Because they're written in plain language, they can be read by anyone on your team. Because they can be read by anyone, you can use them to help improve communication, collaboration and trust on your team.
+## Spring Cloud Turbine
+Turbine is a library for aggregating all hystrix streams data and provides one unique dashboard for application developers and operations to easily monitor services.
+## Chaos monkey, Chaos Gorilla, etc.  
+resiliency testing tools that help applications tolerate random instance and availability zone failures and help discover gaps in resiliency.
+
