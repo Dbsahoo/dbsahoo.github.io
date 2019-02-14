@@ -29,7 +29,7 @@ Unlike Monolithic applications , Micro services are small autonomous components 
 
 ## Micro app Principles:
 Micro app architectural style follows 12 factor app design principles, below are the 12 design principles of a Micro app.
-```ruby
+
 - One Code Base /Many deploys
 - Explicitly isolate dependencies
 - Configuration via Environment
@@ -42,4 +42,3 @@ Micro app architectural style follows 12 factor app design principles, below are
 - Keep Development ,test, staging and production as similar as possible
 - Treat logs as event streams
 - Run admin/Management process as one of processes
-```
