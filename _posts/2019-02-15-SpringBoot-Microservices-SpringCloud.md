@@ -4,8 +4,6 @@ title:  "SpringBoot-Microservice-SpringCloud"
 author: sal
 categories: [ java, spring ]
 image: assets/images/zuul.jpg
-featured: false
-hidden: true
 ---
 
 
